@@ -1,0 +1,79 @@
+.navbar{
+    background-color: #343b40;
+}
+
+.navbar img{
+ padding-left: 30px;
+}
+
+.navbar-brand {
+    color: white !important; /* Cambia el color del texto "Conf Bs As" a blanco */
+    font-size: 7px;
+}
+
+.navegacion-principal a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+.navegacion-principal a:hover{
+    color: #c1cfda;
+}
+
+
+.navegacion-principal a:last-of-type {
+    color: #29a645;
+}
+
+.card-img {
+    width:36rem;
+    opacity: 0.4;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.transparent-button {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.green-button {
+    background-color: #29a645;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-text {
+    max-width: 70%; /* Cambia el valor según sea necesario */
+    margin: 50 auto; /* Centra el texto horizontalmente */
+    text-align: justify;
+}
+
+.piedepagina{
+    background:linear-gradient(to right,rgba(28,54,68,255), rgba(30,83,113,255));
+    text-align: center;
+    padding: 30px;
+    }
+
+.piedepagina a {
+    margin-right: 30px;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
